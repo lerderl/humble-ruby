@@ -19,6 +19,7 @@ end
 # Swap characters and output the result
 colors_array.length.times do |x|
   if colors_array[x] == '/'
+    # Two backslashes used because one backslash is an escape cmd in ruby
     colors_array[x] = '\\'
   end
 end
