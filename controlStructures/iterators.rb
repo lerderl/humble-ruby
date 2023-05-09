@@ -11,3 +11,5 @@ fruits = ['banana', 'apple', 'pear', 'Water melon']
 fruits.each do |fruit|
   puts fruit.capitalize
 end
+
+fruits.each { |fruit| puts fruit.capitalize }
