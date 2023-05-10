@@ -32,3 +32,5 @@ puts "Okay, I have chosen my number.\nIt's your turn!"
     puts i < 2 ? "Try again" : "Game Over! The correct number is #{game_number}"
   end
 end
+
+puts "Thank you for playing!!!"
